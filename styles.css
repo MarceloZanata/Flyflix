@@ -1,0 +1,77 @@
+body {
+    color: white;
+    background: #1C1C1C; 
+    margin: 0;
+    font-family: sans-serif;
+    margin-bottom: 100px;
+}
+
+body.light-mode {
+    color: black;
+    background: gainsboro;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+    background-image: linear-gradient(black, #1C1C1C);
+    color: white;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+header.light {
+    background-image: linear-gradient(#1C1C1C, gainsboro);
+    color: black;
+}
+.logo {
+    max-width: 80px;
+}
+
+.conteudo {
+    background: #3a3a3a;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.chamatexto {
+    margin-right: 5%;
+}
+
+.topnav {
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    color: gainsboro;
+}
+
+.categoria-videos{
+    display: flex;
+    overflow-x: hidden;
+    gap: 10px;
+}
+
+.categoria-videos img {
+    height: 200px;
+    opacity: 0.5;
+
+}
+
+.categoria-videos img:hover {
+    height: 250px;
+    opacity: 1.0;
+    transition: 250ms;
+}
+
